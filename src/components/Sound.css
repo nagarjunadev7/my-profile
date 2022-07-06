@@ -1,0 +1,25 @@
+.mySound{
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+}
+.sm_icon{
+    color: #d19002;
+    padding: 0.3rem;
+}
+.sound{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.my_btn{
+    font-size: 12px;
+    padding: 5px;
+    cursor: pointer;
+}
+.my_btn:hover{
+    color: #d19002;
+    font-weight: bold;
+}
