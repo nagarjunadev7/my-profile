@@ -1,0 +1,203 @@
+.main{
+    color: white;
+    position: absolute;
+    margin: auto;
+    font-size: 1.5rem;
+    left:170px;
+}
+.my-para{
+    font-size: 15px;
+    color: rgba(228, 225, 205, 0.925);
+    position: relative;
+    top: 15px;
+    letter-spacing: 2px;   
+}
+#letter{
+    color: #f8a409;
+    font-size: 50px;	
+    text-shadow: -3px 0px #fdfdfd;
+}
+.contact_btn{
+    padding: 5px 20px;
+    position: relative;
+    top: 50px;
+    color: #f8a409;
+    border: 1px solid #f8a409;
+    background-color: #072340;
+}
+.contact_btn:hover{
+    background-color: #f8a409;
+    color: #fff;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.bounce:hover{ 
+    color: #f8a409;
+    text-shadow: 0 0 5px #03e9f4,
+              0 0 25px #03e9f4,
+              0 0 50px #03e9f4,
+              0 0 100px #03e9f4;
+                   
+}
+
+.delay-1 {
+    animation : fadeIn 0.6s;
+  }
+.delay-2 {
+    animation : fadeIn 0.8s;
+  }
+.delay-3 {
+    animation : fadeIn 1s;
+  }
+.delay-4 {
+    animation : fadeIn 1.2s;
+  }
+.delay-5 {
+    animation : fadeIn 1.4s;
+  }
+.delay-6 {
+    animation : fadeIn 1.6s;
+  }
+.delay-7 {
+    animation : fadeIn 1.8s;
+  }
+.delay-8 {
+    animation : fadeIn 2s;
+  }
+.delay-9 {
+    animation : fadeIn 2.2s;
+  }
+.delay-10 {
+    animation : fadeIn 2.4s;
+  }
+.delay-11 {
+    animation : fadeIn 2.6s;
+  }
+.delay-12 {
+    animation : fadeIn 2.8s;
+  }
+.delay-13 {
+    animation : fadeIn 3s;
+  }
+.delay-14 {
+    animation : fadeIn 3.2s;
+  }
+.delay-15 {
+    animation : fadeIn 3.4s;
+  }
+.delay-16 {
+    animation : fadeIn 3.6s;
+  }
+.delay-17 {
+    animation : fadeIn 3.8s;
+  }
+.delay-18 {
+    animation : fadeIn 4s;
+  }
+.delay-19 {
+    animation : fadeIn 4.2s;
+  }
+.delay-20 {
+    animation : fadeIn 4.4s;
+  }
+.delay-21 {
+    animation : fadeIn 4.6s;
+  }
+.delay-22 {
+    animation : fadeIn 4.8s;
+  }
+.delay-23 {
+    animation : fadeIn 5s;
+  }
+.delay-24 {
+    animation : fadeIn 5.2s;
+  }
+.delay-25 {
+    animation : fadeIn 5.4s;
+  }
+.delay-26 {
+    animation : fadeIn 5.6s;
+  }
+.delay-27 {
+    animation : fadeIn 5.8s;
+  }
+.delay-28 {
+    animation : fadeIn 6s;
+  }
+.delay-29 {
+    animation : fadeIn 6.2s;
+  }
+.delay-30 {
+    animation : fadeIn 6.4s;
+  }
+.delay-31 {
+    animation : fadeIn 6.8s;
+  }
+.delay-32 {
+    animation : fadeIn 7s;
+  }
+.delay-33 {
+    animation : fadeIn 7.2s;
+  }
+.delay-34 {
+    animation : fadeIn 7.4s;
+  }
+
+#spl:hover{
+    animation : fadeOut 0.5s;
+    cursor: pointer;
+    
+}
+
+.scroll-down
+{
+    position: absolute;
+    top: 80vh;
+    left: 5%;
+    transform: translate(-50%,-50%);
+}
+.scroll-down span:nth-child(2)
+{
+    animation-delay: -0.2s;
+}
+.scroll-down span:nth-child(3)
+{
+    animation-delay: -0.4s;
+}
+.scroll-down span
+{
+    display: block;
+    width: 8px;
+    height: 10px;
+    border-bottom: 1px solid #fff;
+    border-right: 1px solid #fff;
+    transform: rotate(45deg);
+    margin: -10px;
+    animation: animate 2s infinite;
+}
+@keyframes animate
+{
+    0%
+  {
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px,-20px);
+    }
+    50%
+  {
+        opacity: 1;
+    }
+    100%
+  {
+        opacity: 0;
+        transform: rotate(45deg) translate(20px,20px);
+    }
+}
+.scroll-down p{
+  font-size: 0.7rem;
+  transform: rotate(90deg);
+  position: relative;
+  left: -100%;
+  top: -20px;
+}
+
+

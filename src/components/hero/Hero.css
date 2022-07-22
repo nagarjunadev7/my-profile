@@ -1,4 +1,6 @@
 .hero{
     background-color:#072340;
     height: 100vh;
+    width: auto;
+    z-index: 2;
 }

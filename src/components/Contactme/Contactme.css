@@ -1,0 +1,11 @@
+.contact{
+    position: relative;
+    height: 100vh;
+    background-color: #072340;
+}
+.contact_head{
+    color: #f8a409;
+    position: relative;
+    top:10%;
+    left: 20%;
+}

@@ -1,0 +1,15 @@
+.skills_one{
+    width: 35%;
+}
+.skills_one h1{
+    color: #f8a409;
+    position: relative;
+    left: 50%;
+    top: 10%;
+}
+.skills_one p{
+    color: #fff;
+    position: relative;
+    left: 50%;
+    top: 20%;
+}

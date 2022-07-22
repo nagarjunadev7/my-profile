@@ -1,0 +1,56 @@
+.navbar{
+    width: 12vw;
+    background-color: #031a30;
+    color: #fff;
+    position: fixed;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.list ul li{
+    list-style-type: none;
+    font-size: 13px; 
+    padding: 10px 10px;
+    border-top: 0.5px solid rgb(56, 55, 53);
+    border-bottom: 0.5px solid rgb(73, 73, 70);
+    position: relative;
+    text-align: center;
+    top: 20px;
+    cursor: pointer;
+}
+.list ul li:hover{
+    font-weight: 600;
+    color: #f5a30c;
+}
+.social_icons ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-around;
+    position: relative;
+    top: 40px;
+}
+.social_icons ul li:hover{
+    color: #f5a30c;
+    cursor: pointer;
+}
+
+#letter_two{
+    color: #f8a409;
+    font-weight: bold;
+    font-size: 3.8rem;	
+    text-shadow: -3px 0px #fdfdfd;
+    cursor: pointer;
+}
+.my_logo{
+    text-align: center;
+}
+#logo_name{
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+#sub_name{
+    font-size: 10px;
+    padding-top: 10px;
+}

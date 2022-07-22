@@ -1,0 +1,19 @@
+.proj_head{
+    height: 100vh;
+    background-color:#072340;
+    color: #fff;
+    position: relative;
+}
+.my_head{
+    color: #f8a409;
+    position: relative;
+    width: 70%;
+    left: 17%;
+    
+}
+.my_para{
+    position: absolute;
+    left: 17%;
+    width:80%;
+    top: 10%;
+}
